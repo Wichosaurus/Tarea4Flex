@@ -1,0 +1,222 @@
+.cuerpo {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 50px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.contenedor {
+    background-color: white;
+    border: 2px solid rgb(180, 176, 176);
+    padding: 40px;
+    max-width: 600px;
+}
+
+.contenedor p {
+    color: darkgray;
+    font-size: 10px;
+    margin-right: 250px;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+body .contenedor2 {
+    border: 1px solid darkgray;
+}
+
+body .login-contenedor{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0;
+    background-color: white;
+}
+
+.contenedor2 {
+    padding: 20px;
+    font-size: small;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.login-contenedor h2 {
+    margin-bottom: 5px;
+}
+
+.login-contenedor p {
+    margin-top: 0px;
+}
+
+.email{
+    width: 300px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.sign-up{
+    width: 310px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: white;
+    font-size: small;
+    background-color: black;
+}
+
+.alter {
+    overflow: hidden;
+    text-align: center;
+    color: darkgrey;
+}
+
+
+.google-button {
+    width: 310px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 38%;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.terms {
+    text-align: center;
+    width: 310px;
+    color: darkgray;
+}
+
+.terms a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+body .contenedores3 {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.contenedores3 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedores3 h3 {
+    font-size: 18px;
+    justify-content: center;
+    border-bottom: 1px solid #a2dd17;}
+
+.listaContacto ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+.name img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.listaContacto .name {
+    color: #666;
+    font-weight: bold;
+}
+
+.posts {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.posts-container {
+    display: flex;
+    gap: 20px;
+}
+
+.post {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-header div {
+    flex-grow: 1;
+}
+
+.post-header p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.post-header p:last-child {
+    color: #666;
+    font-size: 12px;
+}
+
+
+.post-content {
+    background-color: #e0e0e0;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.post-footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.post-interactions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+}
